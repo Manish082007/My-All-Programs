@@ -1,12 +1,20 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace All_Programs
 {
     public static class Anagrams
     {
-        public static void Run()
+        public static IList<int> Run(string s, string p)
         {
-            throw new NotImplementedException();
+            List<int> result = new List<int>();
+            if (p.Length > s.Length)
+                return result;
+
+            
+
+
+            return result;
         }
     }
 }
