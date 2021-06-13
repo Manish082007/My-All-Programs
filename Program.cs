@@ -35,7 +35,9 @@ namespace All_Programs
       //new StoneGameVII().Run3();
       //new MinRefuelStops().Run();
       //new FindMergeNode().Run();
-      new ReverseLinkList().Run();
+      //new ReverseLinkList().Run();
+      //new SymmetricTree().Run();
+      new BinaryTreeTraversals().Run();
 
       Console.ReadLine();
     }
