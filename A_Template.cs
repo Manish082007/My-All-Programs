@@ -25,7 +25,7 @@ namespace All_Programs
 
 
       stopwatch.Stop();
-      Console.WriteLine($"Output is: output in {stopwatch.ElapsedMilliseconds}");
+      Console.WriteLine($"{Environment.NewLine}Output is: output in {stopwatch.ElapsedTicks}");
     }
   }
 }
