@@ -37,7 +37,11 @@ namespace All_Programs
       //new FindMergeNode().Run();
       //new ReverseLinkList().Run();
       //new SymmetricTree().Run();
-      new BinaryTreeTraversals().Run();
+      //new BinaryTreeTraversals().Run();
+      //new MaximumUnitsOnTruck().Run();
+      //new BinaryTreeHeight().Run();
+      //new TreeTopView().Run();
+      new BinaryTreeInsertion().Run();
 
       Console.ReadLine();
     }

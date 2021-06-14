@@ -48,6 +48,8 @@ namespace All_Programs
       printPreOrder(root);
       Console.WriteLine($"{Environment.NewLine}{Environment.NewLine}Post Order: ");
       printPostOrder(root);
+      Console.WriteLine($"{Environment.NewLine}{Environment.NewLine}Lever Order: ");
+      printLevelOrder(root);
 
       stopwatch.Stop();
       Console.WriteLine($"{Environment.NewLine}{Environment.NewLine}Output in {stopwatch.ElapsedMilliseconds}");
@@ -81,6 +83,23 @@ namespace All_Programs
       printPostOrder(root.left);
       printPostOrder(root.right);
       Console.Write($"{root.key} ");
+    }
+
+    void printLevelOrder(Node root)
+    {
+      if (root == null)
+        return;
+
+      Console.Write($"{root.key} ");
+      if (root.left != null)
+      {
+        Console.Write($"{root.left.key} ");
+      }
+      if (root.right != null)
+      {
+        Console.Write($"{root.right.key} ");
+      }
+
     }
   }
 }
