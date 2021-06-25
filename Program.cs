@@ -6,31 +6,6 @@ namespace All_Programs
   {
     static void Main(string[] args)
     {
-      //SpiralNumberPrinting.Run();
-      //BinaryTreePrinting.Run();
-      //Anagrams.Run();
-      //DuplicateZeros.Run();
-      //PrintStar.Run();
-      //PrintDiamond.Run();
-      //new MaxIslandArea().Run();
-      //new InterLeavingStrings().Run();
-      //new EqualPile().Run();
-      //new CakeAreaAfterCut().Run();
-      //new RotateArray().Run4();
-      //new MaximumPerformance().Run();
-      //new ArrayManipulation().Run();
-      //new SinglyLinkedListPrint().Run();
-      //new InsertNodeAtTail().Run();
-      //new InsertNodeAtHead().Run();
-      //new InsertNodeAtPosition().Run();
-      //new LongestConsecutiveSequence().Run();
-      //new MinCostClimbingStairs().Run2();
-      //new DeleteNodeAtPosition().Run();
-      //new ReversePrint().Run();
-      //new CompareTwoLinkedList().Run();
-      //new MergeTwoSortedLinkedList().Run();
-      //new GetNodeValue().Run();
-      //new MyCalendar1().Run();
       //new JumpGameVI().Run3();
       //new StoneGameVII().Run3();
       //new MinRefuelStops().Run();
@@ -41,7 +16,22 @@ namespace All_Programs
       //new MaximumUnitsOnTruck().Run();
       //new BinaryTreeHeight().Run();
       //new TreeTopView().Run();
-      new BinaryTreeInsertion().Run();
+      //new BinaryTreeInsertion().Run();
+      //new HuffmanDecoding().Run();
+      //new LowestCommonAncestor().Run();
+      //new MatchstickstoSquare().Run();
+      //new WordSearch().Run();
+      //new WordSearch2().Run();
+      //new MaxUniqueSplitString().Run();
+      //new GreyCode().Run();
+      //new PascalTriangle().Run();
+      //new MinSplitForHexStrings().Run();
+      //new LeastNumberOfSquares().Run();
+      //new RotateImage().Run();
+      //new RangeCharacters().Run();
+      //new ReverseLinkList2().Run();
+      new NQueen2().Run();
+      //new Permutations().Run();
 
       Console.ReadLine();
     }
