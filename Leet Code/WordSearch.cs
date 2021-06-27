@@ -45,7 +45,7 @@ namespace All_Programs
             if (FindWord(i, j, 0))
             {
               stopwatch.Stop();
-              Console.WriteLine($"{Environment.NewLine}Output is: true in {stopwatch.ElapsedTicks}");
+              Console.WriteLine($"{Environment.NewLine}Output is: true in {stopwatch.ElapsedMilliseconds}");
 
               return true;
             }
@@ -122,7 +122,7 @@ namespace All_Programs
       }
 
       stopwatch.Stop();
-      Console.WriteLine($"{Environment.NewLine}Output is: false in {stopwatch.ElapsedTicks}");
+      Console.WriteLine($"{Environment.NewLine}Output is: false in {stopwatch.ElapsedMilliseconds}");
 
       return false;
     }

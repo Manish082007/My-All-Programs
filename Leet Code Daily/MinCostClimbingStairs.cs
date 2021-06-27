@@ -35,7 +35,7 @@ namespace All_Programs
       if (_costLen <= 1)
       {
         stopwatch.Stop();
-        Console.WriteLine($"Output is: {cost.Min()} in {stopwatch.ElapsedTicks}");
+        Console.WriteLine($"Output is: {cost.Min()} in {stopwatch.ElapsedMilliseconds}");
         return;
       }
       else
@@ -46,7 +46,7 @@ namespace All_Programs
       }
 
       stopwatch.Stop();
-      Console.WriteLine($"Output is: {result} in {stopwatch.ElapsedTicks}");
+      Console.WriteLine($"Output is: {result} in {stopwatch.ElapsedMilliseconds}");
     }
 
     int GetMinCost(int index)
@@ -81,7 +81,7 @@ namespace All_Programs
       }
       
       stopwatch.Stop();
-      Console.WriteLine($"Output is: {Math.Min(cost[0], cost[1])} in {stopwatch.ElapsedTicks}");
+      Console.WriteLine($"Output is: {Math.Min(cost[0], cost[1])} in {stopwatch.ElapsedMilliseconds}");
     }
   }
 }

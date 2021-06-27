@@ -82,7 +82,7 @@ namespace All_Programs
       }
 
       stopwatch.Stop();
-      Console.WriteLine($"{Environment.NewLine}Output is: {maxUnits} in {stopwatch.ElapsedTicks}");
+      Console.WriteLine($"{Environment.NewLine}Output is: {maxUnits} in {stopwatch.ElapsedMilliseconds}");
     }
   }
 }

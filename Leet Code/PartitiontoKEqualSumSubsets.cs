@@ -15,12 +15,27 @@ using System.Text;
 
 namespace All_Programs
 {
-  public class Template
+  public class PartitiontoKEqualSumSubsets
   {
-    public void Run()
+    public bool Run()
     {
       Stopwatch stopwatch = new Stopwatch();
       stopwatch.Start();
+
+      int[] nums = { 4, 3, 2, 3, 5, 2, 1 };
+      int part = 4;
+      
+      int total = 0;
+      foreach(int num in nums)
+      {
+        total += num;
+      }
+
+      if (total % part == 0)
+      {
+        return false;
+      }
+
 
 
 

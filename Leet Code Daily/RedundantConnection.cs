@@ -15,7 +15,7 @@ using System.Text;
 
 namespace All_Programs
 {
-  public class Template
+  public class RedundantConnection
   {
     public void Run()
     {

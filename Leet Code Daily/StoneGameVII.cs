@@ -63,7 +63,7 @@ namespace All_Programs
       }
 
       stopwatch.Stop();
-      Console.WriteLine($"{Environment.NewLine}Output is: {alice - bob} in {stopwatch.ElapsedTicks}");
+      Console.WriteLine($"{Environment.NewLine}Output is: {alice - bob} in {stopwatch.ElapsedMilliseconds}");
     }
 
     int[,] memo;
@@ -85,7 +85,7 @@ namespace All_Programs
       int result = GetMaxDiff(stones, 0, len - 1, total);
 
       stopwatch.Stop();
-      Console.WriteLine($"{Environment.NewLine}Output is: {result} in {stopwatch.ElapsedTicks}");
+      Console.WriteLine($"{Environment.NewLine}Output is: {result} in {stopwatch.ElapsedMilliseconds}");
     }
 
     private int GetMaxDiff(int[] stones, int s, int e, int total)
@@ -127,7 +127,7 @@ namespace All_Programs
       }
 
       stopwatch.Stop();
-      Console.WriteLine($"{Environment.NewLine}Output is: {dpCurr[N - 1]} in {stopwatch.ElapsedTicks}");
+      Console.WriteLine($"{Environment.NewLine}Output is: {dpCurr[N - 1]} in {stopwatch.ElapsedMilliseconds}");
     }
   }
 }

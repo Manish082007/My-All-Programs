@@ -44,7 +44,7 @@ namespace All_Programs
       //return dp[n];
 
       stopwatch.Stop();
-      Console.WriteLine($"{Environment.NewLine}Output is: {dp[n]} in {stopwatch.ElapsedTicks}");
+      Console.WriteLine($"{Environment.NewLine}Output is: {dp[n]} in {stopwatch.ElapsedMilliseconds}");
     }
   }
 }

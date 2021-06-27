@@ -62,7 +62,7 @@ namespace All_Programs
       printArray(matrix);
 
       stopwatch.Stop();
-      Console.WriteLine($"{Environment.NewLine}Output is: output in {stopwatch.ElapsedTicks}");
+      Console.WriteLine($"{Environment.NewLine}Output is: output in {stopwatch.ElapsedMilliseconds}");
     }
 
     private static void printArray(int[][] arr)

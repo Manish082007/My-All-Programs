@@ -30,8 +30,14 @@ namespace All_Programs
       //new RotateImage().Run();
       //new RangeCharacters().Run();
       //new ReverseLinkList2().Run();
-      new NQueen2().Run();
+      //new NQueen2().Run2();
       //new Permutations().Run();
+      //new RedundantConnection().Run();
+      //new NQueen().Run();
+      //new CountofSmallerNumbersAfterSelf().Run();
+      //new AddTwoNumbers().Run();
+      //new MaximumLengthofConcatenatedStringwithUniqueCharacters().Run();
+      new PartitiontoKEqualSumSubsets().Run();
 
       Console.ReadLine();
     }

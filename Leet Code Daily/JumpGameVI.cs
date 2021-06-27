@@ -41,7 +41,7 @@ namespace All_Programs
       int result = GetMaxResult(0);
 
       stopwatch.Stop();
-      Console.WriteLine($"{Environment.NewLine}Output is: {result} in {stopwatch.ElapsedTicks}");
+      Console.WriteLine($"{Environment.NewLine}Output is: {result} in {stopwatch.ElapsedMilliseconds}");
     }
 
     private int GetMaxResult(int index)
@@ -84,7 +84,7 @@ namespace All_Programs
       }
 
       stopwatch.Stop();
-      Console.WriteLine($"{Environment.NewLine}Output is: {memo.Last()} in {stopwatch.ElapsedTicks}");
+      Console.WriteLine($"{Environment.NewLine}Output is: {memo.Last()} in {stopwatch.ElapsedMilliseconds}");
     }
 
     #endregion
@@ -118,7 +118,7 @@ namespace All_Programs
       }
 
       stopwatch.Stop();
-      Console.WriteLine($"{Environment.NewLine}Output is: {nums[0]} in {stopwatch.ElapsedTicks}");
+      Console.WriteLine($"{Environment.NewLine}Output is: {nums[0]} in {stopwatch.ElapsedMilliseconds}");
     }
 
 

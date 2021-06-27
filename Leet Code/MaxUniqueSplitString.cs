@@ -61,7 +61,7 @@ namespace All_Programs
       }
 
       stopwatch.Stop();
-      Console.WriteLine($"{Environment.NewLine}Output is: {maxSplit} in {stopwatch.ElapsedTicks}");
+      Console.WriteLine($"{Environment.NewLine}Output is: {maxSplit} in {stopwatch.ElapsedMilliseconds}");
     }
   }
 }

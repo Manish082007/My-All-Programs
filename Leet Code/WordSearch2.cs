@@ -40,7 +40,7 @@ namespace All_Programs
 
       
       stopwatch.Stop();
-      Console.WriteLine($"{Environment.NewLine}Output is: false in {stopwatch.ElapsedTicks}");
+      Console.WriteLine($"{Environment.NewLine}Output is: false in {stopwatch.ElapsedMilliseconds}");
 
       return false;
     }
